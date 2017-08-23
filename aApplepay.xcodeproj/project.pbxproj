@@ -15,6 +15,8 @@
 		28B9EE161F0E3F07009F07A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28B9EE151F0E3F07009F07A9 /* Assets.xcassets */; };
 		28B9EE191F0E3F07009F07A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28B9EE171F0E3F07009F07A9 /* LaunchScreen.storyboard */; };
 		28B9EE241F0E3F07009F07A9 /* aApplepayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B9EE231F0E3F07009F07A9 /* aApplepayTests.m */; };
+		28B9EE301F0E3F92009F07A9 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B9EE2F1F0E3F92009F07A9 /* PassKit.framework */; };
+		28B9EE321F0E50CE009F07A9 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 28B9EE311F0E50CE009F07A9 /* plus.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,8 @@
 		28B9EE1F1F0E3F07009F07A9 /* aApplepayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aApplepayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		28B9EE231F0E3F07009F07A9 /* aApplepayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aApplepayTests.m; sourceTree = "<group>"; };
 		28B9EE251F0E3F07009F07A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28B9EE2F1F0E3F92009F07A9 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
+		28B9EE311F0E50CE009F07A9 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B9EE301F0E3F92009F07A9 /* PassKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +73,7 @@
 				28B9EE051F0E3F07009F07A9 /* aApplepay */,
 				28B9EE221F0E3F07009F07A9 /* aApplepayTests */,
 				28B9EE041F0E3F07009F07A9 /* Products */,
+				28B9EE2E1F0E3F91009F07A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +106,7 @@
 		28B9EE061F0E3F07009F07A9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28B9EE311F0E50CE009F07A9 /* plus.png */,
 				28B9EE071F0E3F07009F07A9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -112,6 +119,14 @@
 				28B9EE251F0E3F07009F07A9 /* Info.plist */,
 			);
 			path = aApplepayTests;
+			sourceTree = "<group>";
+		};
+		28B9EE2E1F0E3F91009F07A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28B9EE2F1F0E3F92009F07A9 /* PassKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +216,7 @@
 				28B9EE191F0E3F07009F07A9 /* LaunchScreen.storyboard in Resources */,
 				28B9EE161F0E3F07009F07A9 /* Assets.xcassets in Resources */,
 				28B9EE111F0E3F07009F07A9 /* Main.storyboard in Resources */,
+				28B9EE321F0E50CE009F07A9 /* plus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +436,7 @@
 				28B9EE2A1F0E3F07009F07A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28B9EE2B1F0E3F07009F07A9 /* Build configuration list for PBXNativeTarget "aApplepayTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +445,7 @@
 				28B9EE2D1F0E3F07009F07A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

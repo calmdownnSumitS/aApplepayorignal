@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PassKit/PassKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <PKPaymentAuthorizationViewControllerDelegate>
+@property (strong, nonatomic)IBOutlet UITextField *textelem;
+@property (strong, nonatomic) IBOutlet UITextField *textamount;
+- (IBAction)addelement:(id)sender;
 
+- (IBAction)applepay:(id)sender;
 
 @end
 
